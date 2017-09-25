@@ -52,3 +52,6 @@ h1, h2{
 .mono{
   font-family: 'Roboto Mono', monospace;
 }
+.copy{
+  font-family: 'Georgia', serif;
+}
