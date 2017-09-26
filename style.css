@@ -50,9 +50,6 @@ h1, h2 {
   background-color: #03151c;
   height: 76px;
 }
-
-}
-
 .logo {
   display: inline-block;
   float: left;
@@ -181,6 +178,9 @@ h1, h2 {
 	width: 40%;
 	padding: 95px 40px 100px 60px;
 }
+h2, h4{
+	font-weight: bold;
+}
 .sidebar p.mono{
 	margin: 30px 0 25px;
 }
@@ -190,4 +190,30 @@ h1, h2 {
 }
 .objectives{
 	margin-left: 15px 15px 15px 0;
+}
+.schedule{
+	display: inline-block;
+	width: 40%;
+	padding: 90px 70px 80px;
+}
+.schedule .small-header{
+	margin: 40px 0 15px;
+}
+.small-header{
+	font-size: 21px;
+}
+.schedule-block{
+	margin: 0 auto;
+	padding: 40px 0;
+	text-align: center;
+}
+.schedule-block .mono:hover{
+	text-decoration: underline;
+}
+.schedule-block span{
+	margin: 0 15px;
+}
+.img-flex{
+	display: flex;
+	
 }
